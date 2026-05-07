@@ -934,14 +934,7 @@ window.SYLLABUS_RECORDS = [
     "course": "Dental Practicum",
     "blocks": "C",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Registered Dental Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -956,14 +949,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory & Clinicals",
     "blocks": "A, D",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -978,14 +965,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory Alternate",
     "blocks": "B",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1000,14 +981,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory Alternate",
     "blocks": "A, C",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1022,14 +997,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Patient Care Tech Practicum",
     "blocks": "D",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
       "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Phlebotomy Technician"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1044,14 +1013,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory & Clinicals",
     "blocks": "A, B",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1066,14 +1029,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory Alternate",
     "blocks": "D",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1088,14 +1045,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory & Clinicals",
     "blocks": "B, D",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1110,14 +1061,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory Alternate",
     "blocks": "C",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1132,14 +1077,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory & Clinicals",
     "blocks": "C",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1154,14 +1093,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Health Sci Theory Alternate",
     "blocks": "A",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
-      "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Basic Life Support",
+      "Certified Clinical Medical Assistant"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1176,14 +1109,8 @@ window.SYLLABUS_RECORDS = [
     "course": "Pharmacy Tech Practicum",
     "blocks": "B",
     "certifications": [
-      "Basic Life Support (BLS)",
-      "Certified Clinical Medical Assistant (CCMA)",
-      "Phlebotomy Technician",
-      "Patient Care Technician",
-      "Dental Assisting",
       "Pharmacy Technician",
-      "Sterile Processing",
-      "ACT WorkKeys"
+      "Sterile Processing"
     ],
     "ctso": "HOSA / SkillsUSA"
   },
@@ -1499,15 +1426,14 @@ window.SYLLABUS_OPTIONS = {
     "Autodesk AutoCAD Certified User",
     "Autodesk REVIT Certified User",
     "Barbicide Certification",
-    "Basic Life Support (BLS)",
-    "Certified Clinical Medical Assistant (CCMA)",
+    "Basic Life Support",
+    "Certified Clinical Medical Assistant",
     "CompTIA A+",
     "CompTIA Network+",
     "CompTIA Security+",
     "CompTIA Tech+",
     "Cosmetology Operator License",
     "Dell TechDirect",
-    "Dental Assisting",
     "Elanco Animal Science Certification",
     "Elanco Veterinary Medical Applications Certification",
     "Emergency Telecommunicator Certification (ETC)",
@@ -1522,6 +1448,7 @@ window.SYLLABUS_OPTIONS = {
     "Patient Care Technician",
     "Pharmacy Technician",
     "Phlebotomy Technician",
+    "Registered Dental Assistant",
     "ServSafe Food Handlers",
     "ServSafe Food Managers",
     "Sterile Processing",
