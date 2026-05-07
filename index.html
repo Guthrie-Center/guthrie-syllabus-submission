@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guthrie Syllabus Submission</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <img src="assets/GClogo-with-name.png" alt="The Guthrie Center" class="brand-logo">
+      <div>
+        <h1>2026–2027 Syllabus Submission</h1>
+        <p>10660 Hammerly Blvd, Houston, TX 77043 | 713.251.1300 | guthriecenter.springbranchisd.com</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro card">
+      <h2>Submit course information for the standardized Guthrie syllabus</h2>
+      <p>This form collects the teacher-written portions of the new one-page, double-sided syllabus. Campus policies will be added automatically. Focus on what students will learn, experience, and gain from the course.</p>
+      <ul>
+        <li>Use concise, parent-friendly language.</li>
+        <li>Avoid long classroom rule lists or operating procedures.</li>
+        <li>Describe hands-on learning, career relevance, certifications, and professional expectations.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>1. Select teacher and course</h2>
+      <div class="grid two">
+        <label>Teacher
+          <select id="teacherSelect" required>
+            <option value="">Select teacher...</option>
+          </select>
+        </label>
+        <label>Course
+          <select id="courseSelect" required disabled>
+            <option value="">Select teacher first...</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="knownInfo" class="known-info hidden"></div>
+    </section>
+
+    <form id="syllabusForm" class="hidden">
+      <section class="card">
+        <h2>2. Course overview</h2>
+        <label>Tutorial Day/Time
+          <input name="tutorialTime" id="tutorialTime" placeholder="Example: Tuesdays 3:30–4:15 PM by appointment" required>
+        </label>
+
+        <label>Course Description <span class="hint">150 words or less</span>
+          <textarea name="courseDescription" id="courseDescription" rows="6" required placeholder="Write an engaging overview of what students will learn, experience, and gain from the course."></textarea>
+        </label>
+
+        <label>Class-Specific Expectations <span class="hint">150 words or less</span>
+          <textarea name="classExpectations" id="classExpectations" rows="5" required placeholder="Focus on expectations unique to this course or lab. Do not repeat campus policies."></textarea>
+        </label>
+      </section>
+
+      <section class="card">
+        <h2>3. Program information</h2>
+        <div class="grid two">
+          <label>Certification / License Earned
+            <select name="certification" id="certification" required></select>
+          </label>
+          <label>Testing Month
+            <select name="testingMonth" id="testingMonth">
+              <option value="">Select month if applicable...</option>
+            </select>
+          </label>
+        </div>
+
+        <label>Additional Certification Notes
+          <input name="certificationNotes" id="certificationNotes" placeholder="Optional: add or clarify credential details">
+        </label>
+
+        <label>CTSO / Student Organization
+          <select name="ctso" id="ctso" required></select>
+        </label>
+
+        <label>Required Professional Dress and Days Required <span class="hint">75 words or less</span>
+          <textarea name="professionalDress" id="professionalDress" rows="3" placeholder="Example: Scrubs required on lab and clinical days. Closed-toe shoes required in lab."></textarea>
+        </label>
+
+        <label>Required Supplies and Course Fees, if any <span class="hint">brief list</span>
+          <textarea name="suppliesFees" id="suppliesFees" rows="3" placeholder="Example: Binder, pen/pencil, closed-toe shoes. No course fee."></textarea>
+        </label>
+      </section>
+
+      <section class="card">
+        <h2>4. Scope and Sequence</h2>
+        <p class="small">Semester courses should complete up to 4 units. Yearlong courses should complete up to 6 units. Summarize broad instructional phases, not every chapter or weekly topic.</p>
+        <div id="unitContainer"></div>
+      </section>
+
+      <section class="card">
+        <h2>5. Confirm and submit</h2>
+        <label class="check">
+          <input type="checkbox" name="confirmation" id="confirmation" required>
+          <span>I confirm this content is concise, professional, course-focused, and does not include lengthy classroom management procedures or repeated campus policy language.</span>
+        </label>
+
+        <div class="button-row">
+          <button type="button" id="saveDraftBtn" class="secondary">Save Draft on This Computer</button>
+          <button type="submit" id="submitBtn">Submit for Review</button>
+        </div>
+        <p id="statusMessage" class="status"></p>
+      </section>
+    </form>
+  </main>
+
+  <script src="data/syllabusData.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
