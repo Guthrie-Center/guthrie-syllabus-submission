@@ -1473,30 +1473,24 @@ window.SYLLABUS_OPTIONS = {
     "May"
   ],
   "tutorialDays": [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "By appointment"
+    "Monday 3:30\u20134:30 PM",
+    "Tuesday 3:30\u20134:30 PM",
+    "Wednesday 3:30\u20134:30 PM",
+    "Thursday 3:30\u20134:30 PM"
   ],
   "ctsoOptions": [
     "FFA",
     "HOSA",
-    "HOSA / SkillsUSA",
     "Internship Club",
     "NJROTC",
     "NTHS",
-    "None / Not Applicable",
     "ProStart",
-    "SkillsUSA",
-    "SkillsUSA / ProStart",
     "SkillsUSA Cosmetology",
     "SkillsUSA Culinary",
     "SkillsUSA Filmmaking",
     "SkillsUSA Health Science",
-    "TSA",
-    "TSA / SkillsUSA"
+    "None",
+    "Other"
   ],
   "certificationOptions": [
     "ACT WorkKeys",
@@ -1521,7 +1515,7 @@ window.SYLLABUS_OPTIONS = {
     "Google IT Support Professional",
     "HCC Commercial Electrical Level 1",
     "NHJTCA Equine Management & Evaluation Certification",
-    "None / Not Applicable",
+    "None",
     "OSHA 10",
     "OSHA 30",
     "Other",

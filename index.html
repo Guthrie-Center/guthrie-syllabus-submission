@@ -49,8 +49,10 @@
     <form id="syllabusForm" class="hidden">
       <section class="card">
         <h2>2. Course overview</h2>
-        <label>Tutorial Day/Time
-          <input name="tutorialTime" id="tutorialTime" placeholder="Example: Tuesdays 3:30–4:15 PM by appointment" required>
+        <label>Tutorial Day
+          <select name="tutorialTime" id="tutorialTime" required>
+            <option value="">Select tutorial day...</option>
+          </select>
         </label>
 
         <label>Course Description <span class="hint">150 words or less</span>
@@ -64,25 +66,28 @@
 
       <section class="card">
         <h2>3. Program information</h2>
+        <label>Certification / License Earned <span class="hint">select all that apply</span></label>
+        <div id="certificationChecklist" class="checklist"></div>
+
         <div class="grid two">
-          <label>Certification / License Earned
-            <select name="certification" id="certification" required></select>
-          </label>
           <label>Testing Month
             <select name="testingMonth" id="testingMonth">
               <option value="">Select month if applicable...</option>
             </select>
           </label>
+          <label>Additional Certification Notes
+            <input name="certificationNotes" id="certificationNotes" placeholder="Optional: add or clarify credential details">
+          </label>
         </div>
-
-        <label>Additional Certification Notes
-          <input name="certificationNotes" id="certificationNotes" placeholder="Optional: add or clarify credential details">
-        </label>
 
         <label>CTSO / Student Organization
           <select name="ctso" id="ctso" required></select>
         </label>
 
+        <label class="check">
+          <input type="checkbox" id="noProfessionalDress" name="noProfessionalDress">
+          <span>No required professional dress for this course</span>
+        </label>
         <label>Required Professional Dress and Days Required <span class="hint">75 words or less</span>
           <textarea name="professionalDress" id="professionalDress" rows="3" placeholder="Example: Scrubs required on lab and clinical days. Closed-toe shoes required in lab."></textarea>
         </label>

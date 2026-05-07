@@ -151,3 +151,28 @@ button:hover{filter:brightness(.96)}
   .brand-logo{margin-bottom:16px}
   .grid.two,.known-info .facts{grid-template-columns:1fr}
 }
+
+.checklist{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px 14px;
+  padding:12px;
+  border:1px solid #c8d4e5;
+  border-radius:10px;
+  background:#fbfdff;
+}
+.checklist label{
+  display:flex;
+  gap:8px;
+  align-items:flex-start;
+  margin:0;
+  font-weight:400;
+}
+.checklist input{width:auto;margin:2px 0 0}
+textarea:disabled{
+  background:#eef2f7;
+  color:#697789;
+}
+@media(max-width:760px){
+  .checklist{grid-template-columns:1fr}
+}
