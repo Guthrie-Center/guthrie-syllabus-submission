@@ -1,7 +1,9 @@
 // Guthrie Syllabus Submission Frontend
 // STEP YOU MUST DO: paste your deployed Apps Script Web App URL below.
+// Guthrie Syllabus Submission Frontend
+
 const CONFIG = {
-  WEB_APP_URL: "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE"
+  WEB_APP_URL: "https://script.google.com/macros/s/AKfycbyX2iNDbopO35Z65Y3f74KMfUjPmB_cIspFUcIoT_9BJ7MJJFizmhB69hlwT4fkwQta/exec"
 };
 
 const records = window.SYLLABUS_RECORDS || [];
