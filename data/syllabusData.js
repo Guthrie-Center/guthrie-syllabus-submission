@@ -396,29 +396,18 @@ window.SYLLABUS_RECORDS = [
     "ctso": "SkillsUSA"
   },
   {
-    "id": "TBAconstruction_ConstructionTech1CAC14AB_YEAR_2627",
+    "id": "ZubairUlhaq_ConstructionTech2CAC24AB_YEAR_2627",
     "program": "CONSTRUCTION",
-    "teacher": "TBA (construction)",
-    "email": "",
-    "room": "D115",
-    "conference": "10:00 to 11:00",
-    "semester": "Year",
-    "course": "Construction Tech 1 CAC14 A/B",
-    "blocks": "C",
-    "certifications": [],
-    "ctso": "SkillsUSA"
-  },
-  {
-    "id": "TBAconstruction_ConstructionTech2CAC24AB_YEAR_2627",
-    "program": "CONSTRUCTION",
-    "teacher": "TBA (construction)",
-    "email": "",
-    "room": "D115",
-    "conference": "10:00 to 11:00",
+    "teacher": "Zubair Ulhaq",
+    "email": "Zubair.Ulhaq@springbranchisd.com",
+    "room": "D109",
+    "conference": "11:45 to 12:45",
     "semester": "Year",
     "course": "Construction Tech 2 CAC24 A/B",
-    "blocks": "A, D",
-    "certifications": [],
+    "blocks": "A, B",
+    "certifications": [
+      "OSHA 10"
+    ],
     "ctso": "SkillsUSA"
   },
   {
@@ -430,8 +419,10 @@ window.SYLLABUS_RECORDS = [
     "conference": "11:45 to 12:45",
     "semester": "Year",
     "course": "Construction Tech 1 CAC14 A/B",
-    "blocks": "A, B, D",
-    "certifications": [],
+    "blocks": "C",
+    "certifications": [
+      "OSHA 10"
+    ],
     "ctso": "SkillsUSA"
   },
   {
@@ -1243,7 +1234,7 @@ window.SYLLABUS_RECORDS = [
     "conference": "8:00 to 9:00",
     "semester": "Year",
     "course": "Internships",
-    "blocks": "0",
+    "blocks": "Z",
     "certifications": [
       "ACT WorkKeys"
     ],
@@ -1408,14 +1399,18 @@ window.SYLLABUS_OPTIONS = {
   "ctsoOptions": [
     "FFA",
     "HOSA",
+    "HOSA / SkillsUSA",
     "Internship Club",
     "NJROTC",
     "NTHS",
     "ProStart",
+    "SkillsUSA",
+    "SkillsUSA / ProStart",
     "SkillsUSA Cosmetology",
     "SkillsUSA Culinary",
     "SkillsUSA Filmmaking",
     "SkillsUSA Health Science",
+    "TSA / SkillsUSA",
     "None",
     "Other"
   ],
