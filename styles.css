@@ -176,3 +176,20 @@ textarea:disabled{
 @media(max-width:760px){
   .checklist{grid-template-columns:1fr}
 }
+
+
+.schedule-card{
+  border-left:6px solid var(--blue);
+}
+.schedule-grid{
+  display:grid;
+  grid-template-columns:100px 1fr;
+  gap:7px 14px;
+  font-size:16px;
+  line-height:1.35;
+  margin-top:10px;
+}
+.schedule-note{
+  color:var(--muted);
+  font-style:italic;
+}
